@@ -1,0 +1,28 @@
+body{
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+body::-webkit-scrollbar{
+  display: none;
+}
+
+.hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.hover:hover {
+  transform: scale(1.05); /* Slightly zoom in on hover */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.hover img {
+  transition: opacity 0.3s ease;
+}
+
+.hover:hover img {
+  opacity: 0.9; /* Slightly reduce opacity on hover */
+}
+button{
+  font-weight: bolder !important ;
+}
